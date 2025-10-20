@@ -77,9 +77,9 @@ To get a local copy of this project up and running, follow these simple steps.
 
 ## ✍️ Author
 
-- Website - [Your Name](https://github.com/taophycc)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/taophycc)
-- Twitter - [@yourusername](https://www.twitter.com/taophyc_)
+- Website - [Taophycc.com](https://github.com/taophycc)
+- Frontend Mentor - [@taophycc](https://www.frontendmentor.io/profile/taophycc)
+- Twitter - [@taophyc_](https://www.twitter.com/taophyc_)
 
 ## 🙏 Acknowledgments
 

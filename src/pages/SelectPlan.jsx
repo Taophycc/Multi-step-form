@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import Button from "../components/Button";
 import SelectableBox from "../components/SelectableBox";
 import { useForm } from "react-hook-form";
 
@@ -34,7 +33,6 @@ export function SelectPlan({ onNextStep, formData = {} }) {
     return <div>Loading...</div>;
   }
 
-
   const billingCycle = watch("billingCycle");
   const selectedPlan = watch("plan");
 
@@ -66,7 +64,9 @@ export function SelectPlan({ onNextStep, formData = {} }) {
 
   return (
     <div className="md:p-8">
-      <h1 className="md:text-3xl text-2xl font-bold text-blue-950 text-left">Select your plan</h1>
+      <h1 className="md:text-3xl text-2xl font-bold text-blue-950 text-left">
+        Select your plan
+      </h1>
       <p className="font-normal md:text-[17px] text-[16px] text-gray-400 mt-2 mb-9 text-left">
         You have the option of monthly or yearly billing
       </p>

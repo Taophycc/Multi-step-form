@@ -1,5 +1,4 @@
 import { useForm } from "react-hook-form";
-import Button from "../components/Button";
 import { useEffect } from "react";
 
 export function PersonalInfo({ onNextStep, formData = {} }) {
