@@ -56,7 +56,6 @@ function App() {
 
   //Handler for final submission
   const handleFinalSubmit = () => {
-    console.log("Final Form Data:", formData);
     navigate("/thank-you");
   };
 

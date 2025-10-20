@@ -26,7 +26,6 @@ function Summary({ onNextStep, formData = {} }) {
   };
 
   const onSubmit = (finalData) => {
-    console.log(finalData);
     onNextStep(finalData);
   };
   return (
